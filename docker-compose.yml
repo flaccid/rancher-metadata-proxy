@@ -1,0 +1,12 @@
+metadata-proxy-lb:
+  ports:
+  - 1169:80
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - rancher-metadata-proxy:rancher-metadata-proxy
+  stdin_open: true
+rancher-metadata-proxy:
+  tty: true
+  image: rancher-metadata-proxy
+  stdin_open: true
