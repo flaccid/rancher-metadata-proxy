@@ -19,7 +19,7 @@ Typically:
 There should be a reasonable amount of flexibility using the available variables. If not please raise an issue so your use case can be covered!
 
 - `HTTP_USER` - The HTTP basic auth user, default `rancher`
-- `HTTP_PASSWORD` - The HTTP basic auth user's password, default 'rancher'
+- `HTTP_PASSWORD` - The HTTP basic auth user's password, default `rancher`
 
 ### Tag and Push
 
