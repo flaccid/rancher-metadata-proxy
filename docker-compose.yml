@@ -10,3 +10,6 @@ rancher-metadata-proxy:
   tty: true
   image: rancher-metadata-proxy
   stdin_open: true
+  environment:
+    HTTP_USER: rancher
+    HTTP_PASSWORD: Supers3cure
