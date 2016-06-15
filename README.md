@@ -12,7 +12,7 @@ A reverse proxy to expose Rancher's Metadata Service publicly.
 
 Typically:
 
-    $ docker run -itd rancher-metadata-proxy
+    $ docker run -itd --label=io.rancher.container.network=true rancher-metadata-proxy
 
 #### Runtime Environment Variables
 
