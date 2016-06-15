@@ -6,7 +6,7 @@ ENV HTTP_USER rancher
 ENV HTTP_PASSWORD rancher
 
 RUN apk update && \
-  apk add --upgrade openssl && \
+  apk add --upgrade openssl bash && \
   rm -rf /var/lib/apt/lists/* && \
   mkdir -p /opt/local/bin
 

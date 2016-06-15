@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 
 # update the http basic auth password
 echo -n "$HTTP_USER:" >> /etc/nginx/.htpasswd
