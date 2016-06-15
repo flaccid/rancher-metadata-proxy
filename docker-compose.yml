@@ -8,7 +8,7 @@ metadata-proxy-lb:
   stdin_open: true
 rancher-metadata-proxy:
   tty: true
-  image: rancher-metadata-proxy
+  image: flaccid/rancher-metadata-proxy
   stdin_open: true
   environment:
     HTTP_USER: rancher
