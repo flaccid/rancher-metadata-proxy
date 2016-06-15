@@ -9,6 +9,8 @@ metadata-proxy-lb:
 rancher-metadata-proxy:
   tty: true
   image: flaccid/rancher-metadata-proxy
+  labels:
+    io.rancher.container.pull_image: always
   stdin_open: true
   environment:
     HTTP_USER: rancher
