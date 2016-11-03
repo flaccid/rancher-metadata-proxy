@@ -12,6 +12,7 @@ RUN apk update && \
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY entry.sh /opt/local/bin/entry.sh
+RUN chmod +x /opt/local/bin/entry.sh
 
 EXPOSE 80
 
